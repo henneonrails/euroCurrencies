@@ -21,6 +21,7 @@
 		8BA87ED618994069002395FF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BA87EB818994068002395FF /* UIKit.framework */; };
 		8BA87EDE18994069002395FF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8BA87EDC18994069002395FF /* InfoPlist.strings */; };
 		8BA87EE018994069002395FF /* EuroCurrenciesExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BA87EDF18994069002395FF /* EuroCurrenciesExampleTests.m */; };
+		8BA87EF3189941CB002395FF /* CAHEuroCurrencies.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BA87EF2189941CB002395FF /* CAHEuroCurrencies.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		8BA87EDB18994069002395FF /* EuroCurrenciesExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EuroCurrenciesExampleTests-Info.plist"; sourceTree = "<group>"; };
 		8BA87EDD18994069002395FF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8BA87EDF18994069002395FF /* EuroCurrenciesExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EuroCurrenciesExampleTests.m; sourceTree = "<group>"; };
+		8BA87EF1189941CB002395FF /* CAHEuroCurrencies.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CAHEuroCurrencies.h; path = ../EuroCurrencies/CAHEuroCurrencies.h; sourceTree = "<group>"; };
+		8BA87EF2189941CB002395FF /* CAHEuroCurrencies.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CAHEuroCurrencies.m; path = ../EuroCurrencies/CAHEuroCurrencies.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,7 @@
 		8BA87EA818994068002395FF = {
 			isa = PBXGroup;
 			children = (
+				8BA87EE9189940CA002395FF /* EuroCurrencies */,
 				8BA87EBA18994068002395FF /* EuroCurrenciesExample */,
 				8BA87ED918994069002395FF /* EuroCurrenciesExampleTests */,
 				8BA87EB318994068002395FF /* Frameworks */,
@@ -150,6 +154,15 @@
 				8BA87EDC18994069002395FF /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8BA87EE9189940CA002395FF /* EuroCurrencies */ = {
+			isa = PBXGroup;
+			children = (
+				8BA87EF1189941CB002395FF /* CAHEuroCurrencies.h */,
+				8BA87EF2189941CB002395FF /* CAHEuroCurrencies.m */,
+			);
+			name = EuroCurrencies;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BA87EF3189941CB002395FF /* CAHEuroCurrencies.m in Sources */,
 				8BA87ECB18994068002395FF /* CAHViewController.m in Sources */,
 				8BA87EC118994068002395FF /* main.m in Sources */,
 				8BA87EC518994068002395FF /* CAHAppDelegate.m in Sources */,
@@ -461,6 +475,7 @@
 				8BA87EE518994069002395FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8BA87EE618994069002395FF /* Build configuration list for PBXNativeTarget "EuroCurrenciesExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +484,7 @@
 				8BA87EE818994069002395FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
