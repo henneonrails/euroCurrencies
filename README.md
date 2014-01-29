@@ -70,3 +70,13 @@ SGD | Sudanese pound
 THB | Thai baht
 ZAR | South African rand
 
+Installation
+------------
+Only copy the two files
+```
+CAHEuroCurrencies.h
+CAHEuroCurrencies.m
+```
+in your project and import the header file.
+
+A cocoapod podspec will follow.
