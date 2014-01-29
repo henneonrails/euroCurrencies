@@ -11,21 +11,26 @@ The data is loaded from the ecb (european central bank). The currency data is up
 
 Usage
 -----
-First initialize the class. In this example we use british pound.
-```
+First initialize the class. In this example we use Pound sterling.
+
+```objective-c
 CAHEuroCurrencies *euroManager = [[CAHEuroCurrencies alloc] initWithCurrency:@"GBP"];
 ```
 then you are able to get the convert value by calling
-```
+
+```objective-c
 [euroManager getConversionRate:^(float conversionRateAsFloat) {
-        NSLog(@"Conversion Rata: %f", conversionRateAsFloat);
+        NSLog(@"Conversion rate: %f", conversionRateAsFloat);
     }];
 
 ```
 the block is only called when the currency value is loaded. So you might have to wait. It is also possible to call these properties:
 
-    @property (nonatomic, readonly)NSString *conversionRateAsString;
-    @property (nonatomic, readonly)float conversionRateAsFloat;
+```objective-c
+@property (nonatomic, readonly)NSString *conversionRateAsString;
+@property (nonatomic, readonly)float conversionRateAsFloat;
+```
+
 but they might be nil if you haven't called `getConversionRate` before. If you have ever loaded the value of the currency, then the last value is stored in the user defaults. And you can get immediate access to the properties.
 
 Currency
