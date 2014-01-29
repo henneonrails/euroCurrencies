@@ -61,11 +61,11 @@
     NSString *substring;
     for (NSString *string in array) {
         if ([string rangeOfString:self.isoCurrencySymbol].location != NSNotFound) {
-            XLog(@"currency %@", string);
+            //XLog(@"currency %@", string);
             NSRange range = [string rangeOfString:@"rate='"];
             range.location += 6;
             substring = [string substringWithRange:range];
-            XLog(@"substring %@",substring);
+            //XLog(@"substring %@",substring);
         }
     }
     if ([substring floatValue] > 0.0) {
