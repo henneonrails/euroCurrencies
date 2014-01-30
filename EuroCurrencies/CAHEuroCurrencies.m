@@ -8,7 +8,6 @@
 
 #import "CAHEuroCurrencies.h"
 #define kECB @"http://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml"
-#define kChangedDate @"Date"
 
 @interface CAHEuroCurrencies ()
 @property (nonatomic, strong)NSString *isoCurrencySymbol;
@@ -61,11 +60,9 @@
     NSString *substring;
     for (NSString *string in array) {
         if ([string rangeOfString:self.isoCurrencySymbol].location != NSNotFound) {
-            //XLog(@"currency %@", string);
             NSRange range = [string rangeOfString:@"rate='"];
             range.location += 6;
             substring = [string substringWithRange:range];
-            //XLog(@"substring %@",substring);
         }
     }
     if ([substring floatValue] > 0.0) {
