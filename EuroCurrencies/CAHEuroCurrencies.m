@@ -33,9 +33,17 @@
 }
 
 -(float)convertToEuro:(float)currencyAmount {
+    if (currencyAmount = 0) {
+        return 0;
+    }
+    if (self.conversionRateAsFloat > 0) {
     float euroValue = 0.0;
     euroValue = currencyAmount / self.conversionRateAsFloat;
     return euroValue;
+    }
+    else {
+        return 0;
+    }
 }
 
 -(float)conversionRateAsFloat {
