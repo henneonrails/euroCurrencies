@@ -15,6 +15,7 @@
 @property (nonatomic, strong) NSURLSessionConfiguration *sessionConfig;
 @property (nonatomic, strong) NSURLSession *session;
 @property (nonatomic, strong)NSString *conversionRateAsString;
+@property (nonatomic, strong)NSDate *dateOfConversionRate;
 @property float conversionRateAsFloat;
 @property (nonatomic, strong)CAHEuroCurrenciesCallback callback;
 @end
@@ -33,13 +34,13 @@
 }
 
 -(float)convertToEuro:(float)currencyAmount {
-    if (currencyAmount = 0) {
+    if (currencyAmount == 0) {
         return 0;
     }
     if (self.conversionRateAsFloat > 0) {
-    float euroValue = 0.0;
-    euroValue = currencyAmount / self.conversionRateAsFloat;
-    return euroValue;
+        float euroValue = 0.0;
+        euroValue = currencyAmount / self.conversionRateAsFloat;
+        return euroValue;
     }
     else {
         return 0;
@@ -59,6 +60,14 @@
         _conversionRateAsString = [NSString stringWithFormat:@"%f", self.conversionRateAsFloat];
     }
     return _conversionRateAsString;
+}
+
+-(NSDate *)dateOfConversionRate {
+    if (!_dateOfConversionRate) {
+        NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+        _dateOfConversionRate = [defaults objectForKey:@"DATE"];
+    }
+    return _dateOfConversionRate;
 }
 
 #pragma mark - string parsing
@@ -99,7 +108,7 @@
         [[UIApplication sharedApplication] setNetworkActivityIndicatorVisible:NO];
         NSHTTPURLResponse *httpResponse = (NSHTTPURLResponse *)response;
         if (httpResponse.statusCode == 200) {
-                [self handleSearchResult:data];
+            [self handleSearchResult:data];
         } else {
             NSString *body = [[NSString alloc] initWithData:data
                                                    encoding:NSUTF8StringEncoding];
@@ -112,7 +121,7 @@
                                   otherButtonTitles:nil] show];
             });
         }//else
-        }]; //completion handler
+    }]; //completion handler
     [task resume];
 }
 
@@ -124,6 +133,8 @@
     if (self.isoCurrencySymbol && self.conversionRateAsFloat)  {
         NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
         [defaults setFloat:self.conversionRateAsFloat forKey:self.isoCurrencySymbol];
+        // save the date for the conversion rate (updated once a day)
+        [defaults setObject:[NSDate date] forKey:@"DATE"];
         [defaults synchronize];
         return YES;
     } else {
@@ -139,6 +150,7 @@
     if (currencySymbol) {
         NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
         self.conversionRateAsFloat = [defaults floatForKey:currencySymbol];
+        self.dateOfConversionRate = [defaults objectForKey:@"DATE"];
     }
     if (self.conversionRateAsFloat) {
         return YES;

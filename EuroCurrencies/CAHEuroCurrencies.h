@@ -7,22 +7,24 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+
 typedef void (^CAHEuroCurrenciesCallback)(float conversionRateAsFloat);
 
 /**
  *  Class for getting conversion rates published by the ecb (once a day)
-    example:
+ example:
  
-    CAHEuroCurrencies *euroCurrenciesManager = [[CAHEuroCurrencies alloc] initWithCurrency:@"GBP"];
-    [self.euroCurrenciesManager getConversionRate:^(float rate) {
-        XLog(@"conversionRateAsFloat %f", rate);
-        //now you have access to the properties conversionRateAsString
-        //and conversionRateAsFloat also.
-    }];
+ CAHEuroCurrencies *euroCurrenciesManager = [[CAHEuroCurrencies alloc] initWithCurrency:@"GBP"];
+ [self.euroCurrenciesManager getConversionRate:^(float rate) {
+ XLog(@"conversionRateAsFloat %f", rate);
+ //now you have access to the properties conversionRateAsString
+ //and conversionRateAsFloat also.
+ }];
  
-    after the init call the currency rate is also saved to the user defaults. So 
-    it is faster to get the values by properties. Or think of not having a internet
-    connection.
+ after the init call the currency rate is also saved to the user defaults. So
+ it is faster to get the values by properties. Or think of not having a internet
+ connection.
  */
 @interface CAHEuroCurrencies : NSObject
 
@@ -44,13 +46,14 @@ typedef void (^CAHEuroCurrenciesCallback)(float conversionRateAsFloat);
 /**
  *  values are only available after calling the initWithCurrency. This takes a while because
  *  of loading from web. If you want your value as soon as possible, call the
- *  getConversionRate:callback methode. The callback is called when ther is a value
- *  loaded from web. 
+ *  getConversionRate:callback methode. The callback is called when there is a value
+ *  loaded from web.
  *  The rates are also saved in the UserDefaults. So after calling once a currency rate
  *  it is possible to get the old rate by reading these properties.
  */
 @property (nonatomic, readonly)NSString *conversionRateAsString;
 @property (nonatomic, readonly)float conversionRateAsFloat;
+@property (nonatomic, readonly)NSDate *dateOfConversionRate;
 
 /**
  *  simple conversion helper for converting a float after initializing this class with
