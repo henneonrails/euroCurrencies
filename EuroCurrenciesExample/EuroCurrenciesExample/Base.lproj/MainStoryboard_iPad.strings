@@ -1,0 +1,429 @@
+/* Class = "IBUIViewController"; title = "Detail"; ObjectID = "4"; */
+"4.title" = "Detail";
+
+/* Class = "IBUITableViewController"; title = "Master"; ObjectID = "19"; */
+"19.title" = "Master";
+
+/* Class = "IBUINavigationItem"; title = "Master"; ObjectID = "40"; */
+"40.title" = "Master";
+
+/* Class = "IBUINavigationItem"; title = "Detail"; ObjectID = "53"; */
+"53.title" = "Detail";
+
+/* Class = "IBUILabel"; text = "Snapped seamiles"; ObjectID = "00d-fg-Xne"; */
+"00d-fg-Xne.text" = "Snapped seamiles";
+
+/* Class = "IBUIButton"; normalTitle = "delete iCloud"; ObjectID = "0Yo-DJ-DrI"; */
+"0Yo-DJ-DrI.normalTitle" = "delete iCloud";
+
+/* Class = "IBUILabel"; text = "Engine hours"; ObjectID = "0ca-Q6-31e"; */
+"0ca-Q6-31e.text" = "Engine hours";
+
+/* Class = "IBUILabel"; text = "First name"; ObjectID = "121-Y2-kgi"; */
+"121-Y2-kgi.text" = "First name";
+
+/* Class = "IBUILabel"; text = "Engine hours odo"; ObjectID = "1Gp-mr-8mn"; */
+"1Gp-mr-8mn.text" = "Engine hours odo";
+
+/* Class = "IBUILabel"; text = "name without address book"; ObjectID = "1MU-tZ-lM9"; */
+"1MU-tZ-lM9.text" = "name without address book";
+
+/* Class = "IBUILabel"; text = "setup when you will be reminded to take a snap of your trip"; ObjectID = "1Yi-IF-oiq"; */
+"1Yi-IF-oiq.text" = "setup when you will be reminded to take a snap of your trip";
+
+/* Class = "IBUIBarButtonItem"; title = "Info"; ObjectID = "256-8s-KEA"; */
+"256-8s-KEA.title" = "Info";
+
+/* Class = "IBUILabel"; text = "Title"; ObjectID = "2cj-Od-WXH"; */
+"2cj-Od-WXH.text" = "Title";
+
+/* Class = "IBUILabel"; text = "Main Sail"; ObjectID = "32Z-8C-Pay"; */
+"32Z-8C-Pay.text" = "Main Sail";
+
+/* Class = "IBUITableViewSection"; headerTitle = "iCloud"; ObjectID = "3eh-Fe-7rL"; */
+"3eh-Fe-7rL.headerTitle" = "iCloud";
+
+/* Class = "IBUITableViewSection"; headerTitle = "Notes"; ObjectID = "3oj-6D-n98"; */
+"3oj-6D-n98.headerTitle" = "Notes";
+
+/* Class = "IBUINavigationItem"; title = "Crew"; ObjectID = "4Hx-OH-ucu"; */
+"4Hx-OH-ucu.title" = "Crew";
+
+/* Class = "IBUIBarButtonItem"; title = "Satellite"; ObjectID = "4PT-7Y-ruW"; */
+"4PT-7Y-ruW.title" = "Satellite";
+
+/* Class = "IBUITableViewSection"; headerTitle = "iCloud"; ObjectID = "57Y-f1-Eq1"; */
+"57Y-f1-Eq1.headerTitle" = "iCloud";
+
+/* Class = "IBUINavigationItem"; title = "Ranking"; ObjectID = "641-6k-xJg"; */
+"641-6k-xJg.title" = "Ranking";
+
+/* Class = "IBUILabel"; text = "snapped seamiles"; ObjectID = "6ie-3Y-eEC"; */
+"6ie-3Y-eEC.text" = "snapped seamiles";
+
+/* Class = "IBUILabel"; text = "Wind"; ObjectID = "73p-fQ-Xxe"; */
+"73p-fQ-Xxe.text" = "Wind";
+
+/* Class = "IBUILabel"; text = "course"; ObjectID = "8bR-eI-m82"; */
+"8bR-eI-m82.text" = "course";
+
+/* Class = "IBUILabel"; text = "total"; ObjectID = "9aM-N6-mKL"; */
+"9aM-N6-mKL.text" = "total";
+
+/* Class = "IBUIBarButtonItem"; title = "Map"; ObjectID = "9pa-hG-9yM"; */
+"9pa-hG-9yM.title" = "Map";
+
+/* Class = "IBUILabel"; text = "setup timer"; ObjectID = "9wp-1V-Fqk"; */
+"9wp-1V-Fqk.text" = "setup timer";
+
+/* Class = "IBUITableViewSection"; headerTitle = "Dates"; ObjectID = "ARz-oI-bFB"; */
+"ARz-oI-bFB.headerTitle" = "Dates";
+
+/* Class = "IBUIButton"; normalTitle = "Import"; ObjectID = "ATV-VX-R96"; */
+"ATV-VX-R96.normalTitle" = "Import";
+
+/* Class = "IBUITableViewSection"; headerTitle = "Dropbox"; ObjectID = "AXN-GJ-dPi"; */
+"AXN-GJ-dPi.headerTitle" = "Dropbox";
+
+/* Class = "IBUIBarButtonItem"; title = "map"; ObjectID = "Al4-X2-6we"; */
+"Al4-X2-6we.title" = "map";
+
+/* Class = "IBUIButton"; accessibilityLabel = "GetPosition"; ObjectID = "BAt-oY-Y9u"; */
+"BAt-oY-Y9u.accessibilityLabel" = "GetPosition";
+
+/* Class = "IBUIButton"; normalTitle = "Get Position"; ObjectID = "BAt-oY-Y9u"; */
+"BAt-oY-Y9u.normalTitle" = "Get Position";
+
+/* Class = "IBUITableViewSection"; headerTitle = "Geofence"; ObjectID = "BJw-17-tjo"; */
+"BJw-17-tjo.headerTitle" = "Geofence";
+
+/* Class = "IBUITextField"; placeholder = "area"; ObjectID = "BNl-iP-oDW"; */
+"BNl-iP-oDW.placeholder" = "area";
+
+/* Class = "IBUIViewController"; title = "Splash"; ObjectID = "DYb-Y1-edb"; */
+"DYb-Y1-edb.title" = "Splash";
+
+/* Class = "IBUIBarButtonItem"; title = "Map"; ObjectID = "DyM-ui-xGg"; */
+"DyM-ui-xGg.title" = "Map";
+
+/* Class = "IBUITableViewSection"; headerTitle = "Crew"; ObjectID = "F32-sI-gCf"; */
+"F32-sI-gCf.headerTitle" = "Crew";
+
+/* Class = "IBUILabel"; text = "Distance untill next capture in meter"; ObjectID = "F4M-MG-j4M"; */
+"F4M-MG-j4M.text" = "Distance untill next capture in meter";
+
+/* Class = "IBUITextField"; placeholder = "vessel name"; ObjectID = "Fde-be-zrq"; */
+"Fde-be-zrq.placeholder" = "vessel name";
+
+/* Class = "IBUIButton"; normalTitle = "Link Dropbox"; ObjectID = "GqH-Ay-e3L"; */
+"GqH-Ay-e3L.normalTitle" = "Link Dropbox";
+
+/* Class = "IBUILabel"; text = "logged seamiles"; ObjectID = "Gqn-vM-qp0"; */
+"Gqn-vM-qp0.text" = "logged seamiles";
+
+/* Class = "IBUITextField"; text = "2 L/h"; ObjectID = "Hgb-Ve-nmE"; */
+"Hgb-Ve-nmE.text" = "2 L/h";
+
+/* Class = "IBUITextField"; placeholder = "starting port"; ObjectID = "IE7-mg-bj3"; */
+"IE7-mg-bj3.placeholder" = "starting port";
+
+/* Class = "IBUITextField"; placeholder = "Log in the mornig"; ObjectID = "JTd-da-E6g"; */
+"JTd-da-E6g.placeholder" = "Log in the mornig";
+
+/* Class = "IBUILabel"; text = "Head Sail"; ObjectID = "Jo1-wL-FWS"; */
+"Jo1-wL-FWS.text" = "Head Sail";
+
+/* Class = "IBUITextField"; placeholder = "date"; ObjectID = "KIL-jk-BP2"; */
+"KIL-jk-BP2.placeholder" = "date";
+
+/* Class = "IBUILabel"; text = "Last name"; ObjectID = "La1-6U-n11"; */
+"La1-6U-n11.text" = "Last name";
+
+/* Class = "IBUINavigationItem"; title = "Entries"; ObjectID = "MEN-je-bJ6"; */
+"MEN-je-bJ6.title" = "Entries";
+
+/* Class = "IBUIButton"; normalTitle = "delete local store"; ObjectID = "MOk-TG-3Af"; */
+"MOk-TG-3Af.normalTitle" = "delete local store";
+
+/* Class = "IBUIBarButtonItem"; title = "Places"; ObjectID = "N6p-r5-YKc"; */
+"N6p-r5-YKc.title" = "Places";
+
+/* Class = "IBUILabel"; text = "speed"; ObjectID = "Nej-8V-Xcd"; */
+"Nej-8V-Xcd.text" = "speed";
+
+/* Class = "IBUILabel"; text = "Log odo"; ObjectID = "Ogw-uT-oYq"; */
+"Ogw-uT-oYq.text" = "Log odo";
+
+/* Class = "IBUITableViewSection"; headerTitle = "Daily summary"; ObjectID = "P1l-t7-jmr"; */
+"P1l-t7-jmr.headerTitle" = "Daily summary";
+
+/* Class = "IBUIBarButtonItem"; title = "Close"; ObjectID = "Qew-0r-jOD"; */
+"Qew-0r-jOD.title" = "Close";
+
+/* Class = "IBUITableViewSection"; headerTitle = "engine hours total"; ObjectID = "QlR-0Y-Iae"; */
+"QlR-0Y-Iae.headerTitle" = "engine hours total";
+
+/* Class = "IBUINavigationItem"; title = "Datum"; ObjectID = "R1y-ba-maw"; */
+"R1y-ba-maw.title" = "Datum";
+
+/* Class = "IBUITableViewController"; title = "Info"; ObjectID = "Rw5-rI-N0Q"; */
+"Rw5-rI-N0Q.title" = "Info";
+
+/* Class = "IBUILabel"; text = "Detail"; ObjectID = "RxT-MN-ems"; */
+"RxT-MN-ems.text" = "Detail";
+
+/* Class = "IBUILabel"; text = "iCloud available?"; ObjectID = "SW1-oB-GWC"; */
+"SW1-oB-GWC.text" = "iCloud available?";
+
+/* Class = "IBUITableViewSection"; headerTitle = "consumption per hour"; ObjectID = "SfE-xv-guq"; */
+"SfE-xv-guq.headerTitle" = "consumption per hour";
+
+/* Class = "IBUISwitch"; accessibilityLabel = "EngineSwitch"; ObjectID = "SfN-17-aWU"; */
+"SfN-17-aWU.accessibilityLabel" = "EngineSwitch";
+
+/* Class = "IBUILabel"; text = "choose Crewmembers"; ObjectID = "SlS-7W-0jW"; */
+"SlS-7W-0jW.text" = "choose Crewmembers";
+
+/* Class = "IBUILabel"; text = "logged enginehours"; ObjectID = "Swc-bq-hiL"; */
+"Swc-bq-hiL.text" = "logged enginehours";
+
+/* Class = "IBUILabel"; text = "Title"; ObjectID = "T4c-Ng-L2w"; */
+"T4c-Ng-L2w.text" = "Title";
+
+/* Class = "IBUILabel"; text = "total"; ObjectID = "TQh-dM-WQT"; */
+"TQh-dM-WQT.text" = "total";
+
+/* Class = "IBUILabel"; text = "Version"; ObjectID = "TnI-mC-GNq"; */
+"TnI-mC-GNq.text" = "Version";
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "TzV-dx-0xL"; */
+"TzV-dx-0xL.text" = "Label";
+
+/* Class = "IBUIButton"; normalTitle = "Weather Online"; ObjectID = "U6H-Fc-hOT"; */
+"U6H-Fc-hOT.normalTitle" = "Weather Online";
+
+/* Class = "IBUITableViewSection"; headerTitle = "Distances"; ObjectID = "UiY-tg-PlC"; */
+"UiY-tg-PlC.headerTitle" = "Distances";
+
+/* Class = "IBUILabel"; text = "Speed"; ObjectID = "VLS-PM-c3J"; */
+"VLS-PM-c3J.text" = "Speed";
+
+/* Class = "IBUILabel"; text = "You can import saved XML logbooks. Please place your logbook XML File into file sharing in iTunes."; ObjectID = "WWZ-3x-Vqi"; */
+"WWZ-3x-Vqi.text" = "You can import saved XML logbooks. Please place your logbook XML File into file sharing in iTunes.";
+
+/* Class = "IBUILabel"; text = "Longitude"; ObjectID = "WfR-7w-TXg"; */
+"WfR-7w-TXg.text" = "Longitude";
+
+/* Class = "IBUILabel"; text = "start"; ObjectID = "Wgy-7z-a6r"; */
+"Wgy-7z-a6r.text" = "start";
+
+/* Class = "IBUILabel"; text = "Detail"; ObjectID = "XGB-me-gbH"; */
+"XGB-me-gbH.text" = "Detail";
+
+/* Class = "IBUINavigationItem"; title = "Snaps"; ObjectID = "Xcq-3a-Bdt"; */
+"Xcq-3a-Bdt.title" = "Snaps";
+
+/* Class = "IBUILabel"; text = "from - to"; ObjectID = "XnE-DA-Rfd"; */
+"XnE-DA-Rfd.text" = "from - to";
+
+/* Class = "IBUIButton"; normalTitle = "Save"; ObjectID = "Y1j-hw-13B"; */
+"Y1j-hw-13B.normalTitle" = "Save";
+
+/* Class = "IBUILabel"; text = "Position"; ObjectID = "YS1-9b-CZq"; */
+"YS1-9b-CZq.text" = "Position";
+
+/* Class = "IBUITextField"; placeholder = "starting harbour"; ObjectID = "YWF-uE-kGC"; */
+"YWF-uE-kGC.placeholder" = "starting harbour";
+
+/* Class = "IBUILabel"; text = "Detail"; ObjectID = "Yfo-kd-hrb"; */
+"Yfo-kd-hrb.text" = "Detail";
+
+/* Class = "IBUILabel"; text = "Course"; ObjectID = "ZRR-J4-TKd"; */
+"ZRR-J4-TKd.text" = "Course";
+
+/* Class = "IBUITableViewCell"; accessibilityLabel = "MasterCell"; ObjectID = "ZSw-0O-9Pw"; */
+"ZSw-0O-9Pw.accessibilityLabel" = "MasterCell";
+
+/* Class = "IBUILabel"; text = "Detail"; ObjectID = "ZXz-pm-G57"; */
+"ZXz-pm-G57.text" = "Detail";
+
+/* Class = "IBUILabel"; text = "Vessel brand"; ObjectID = "Zsi-R3-tZ4"; */
+"Zsi-R3-tZ4.text" = "Vessel brand";
+
+/* Class = "IBUILabel"; text = "Notes"; ObjectID = "a5Q-qb-I5L"; */
+"a5Q-qb-I5L.text" = "Notes";
+
+/* Class = "IBUILabel"; text = "from - to"; ObjectID = "a75-5J-zz1"; */
+"a75-5J-zz1.text" = "from - to";
+
+/* Class = "IBUILabel"; text = "Latitude"; ObjectID = "b0q-8W-lju"; */
+"b0q-8W-lju.text" = "Latitude";
+
+/* Class = "IBUINavigationItem"; title = "Snaps"; ObjectID = "bC5-dI-E05"; */
+"bC5-dI-E05.title" = "Snaps";
+
+/* Class = "IBUITextField"; placeholder = "destination port"; ObjectID = "bjT-bU-oo7"; */
+"bjT-bU-oo7.placeholder" = "destination port";
+
+/* Class = "IBUILabel"; text = "end"; ObjectID = "dOx-ty-q4f"; */
+"dOx-ty-q4f.text" = "end";
+
+/* Class = "IBUILabel"; text = "date"; ObjectID = "dVy-Y8-ZzU"; */
+"dVy-Y8-ZzU.text" = "date";
+
+/* Class = "IBUILabel"; text = "Logged seamiles"; ObjectID = "dZD-jH-fOl"; */
+"dZD-jH-fOl.text" = "Logged seamiles";
+
+/* Class = "IBUITableViewSection"; headerTitle = "Start of day"; ObjectID = "diU-FQ-Iub"; */
+"diU-FQ-Iub.headerTitle" = "Start of day";
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "djt-KQ-NbU"; */
+"djt-KQ-NbU.text" = "Label";
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "e3i-Io-xBL"; */
+"e3i-Io-xBL.text" = "Label";
+
+/* Class = "IBUILabel"; text = "enable iCloud"; ObjectID = "eCH-Q8-Yci"; */
+"eCH-Q8-Yci.text" = "enable iCloud";
+
+/* Class = "IBUIButton"; normalTitle = "Post Feedback"; ObjectID = "eGR-IS-gDV"; */
+"eGR-IS-gDV.normalTitle" = "Post Feedback";
+
+/* Class = "IBUILabel"; text = "Detail"; ObjectID = "eHo-Eb-GfS"; */
+"eHo-Eb-GfS.text" = "Detail";
+
+/* Class = "IBUITextField"; placeholder = "Log in the evening"; ObjectID = "eK9-C8-Pn6"; */
+"eK9-C8-Pn6.placeholder" = "Log in the evening";
+
+/* Class = "IBUILabel"; text = "Name of cruise"; ObjectID = "f3F-jx-382"; */
+"f3F-jx-382.text" = "Name of cruise";
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "f3N-15-3Ya"; */
+"f3N-15-3Ya.text" = "Label";
+
+/* Class = "IBUILabel"; text = "Area"; ObjectID = "f8f-ZS-PqA"; */
+"f8f-ZS-PqA.text" = "Area";
+
+/* Class = "IBUITextField"; placeholder = "Log in the mornig"; ObjectID = "fRR-9p-fzv"; */
+"fRR-9p-fzv.placeholder" = "Log in the mornig";
+
+/* Class = "IBUILabel"; text = "Engine hours"; ObjectID = "fX7-Bf-EUr"; */
+"fX7-Bf-EUr.text" = "Engine hours";
+
+/* Class = "IBUINavigationItem"; title = "cruise"; ObjectID = "fpk-5x-em8"; */
+"fpk-5x-em8.title" = "cruise";
+
+/* Class = "IBUIButton"; accessibilityLabel = "DetailMapButton"; ObjectID = "fq6-z3-zmC"; */
+"fq6-z3-zmC.accessibilityLabel" = "DetailMapButton";
+
+/* Class = "IBUIButton"; normalTitle = "Detail Map"; ObjectID = "fq6-z3-zmC"; */
+"fq6-z3-zmC.normalTitle" = "Detail Map";
+
+/* Class = "IBUILabel"; text = "Detail"; ObjectID = "g6s-J1-Hi7"; */
+"g6s-J1-Hi7.text" = "Detail";
+
+/* Class = "IBUIButton"; normalTitle = "rebuild cloud store"; ObjectID = "gV8-ag-eQy"; */
+"gV8-ag-eQy.normalTitle" = "rebuild cloud store";
+
+/* Class = "IBUILabel"; text = "Photo"; ObjectID = "gVO-6A-q0t"; */
+"gVO-6A-q0t.text" = "Photo";
+
+/* Class = "IBUIButton"; normalTitle = "SET"; ObjectID = "gbO-Ov-mKA"; */
+"gbO-Ov-mKA.normalTitle" = "SET";
+
+/* Class = "IBUITextField"; placeholder = "Log in the evening"; ObjectID = "h6z-gg-QXv"; */
+"h6z-gg-QXv.placeholder" = "Log in the evening";
+
+/* Class = "IBUITextField"; placeholder = "vessel length"; ObjectID = "hr8-tG-m8M"; */
+"hr8-tG-m8M.placeholder" = "vessel length";
+
+/* Class = "IBUITableViewSection"; headerTitle = "End of day"; ObjectID = "i4a-fZ-F0c"; */
+"i4a-fZ-F0c.headerTitle" = "End of day";
+
+/* Class = "IBUILabel"; text = "Vessel length"; ObjectID = "iGV-7L-meO"; */
+"iGV-7L-meO.text" = "Vessel length";
+
+/* Class = "IBUILabel"; text = "date"; ObjectID = "iXn-Zt-X7U"; */
+"iXn-Zt-X7U.text" = "date";
+
+/* Class = "IBUITableViewSection"; headerTitle = "total consumption"; ObjectID = "icj-wd-HmH"; */
+"icj-wd-HmH.headerTitle" = "total consumption";
+
+/* Class = "IBUILabel"; text = "Vessel name"; ObjectID = "jiG-kd-XUd"; */
+"jiG-kd-XUd.text" = "Vessel name";
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "k9f-5N-Tzq"; */
+"k9f-5N-Tzq.text" = "Label";
+
+/* Class = "IBUILabel"; text = "Log"; ObjectID = "lAV-hj-VRc"; */
+"lAV-hj-VRc.text" = "Log";
+
+/* Class = "IBUIBarButtonItem"; title = "Sea Map"; ObjectID = "mWL-bt-hmH"; */
+"mWL-bt-hmH.title" = "Sea Map";
+
+/* Class = "IBUITableViewSection"; headerTitle = "Datum"; ObjectID = "mXc-pc-e7D"; */
+"mXc-pc-e7D.headerTitle" = "Datum";
+
+/* Class = "IBUITableViewSection"; headerTitle = "Location"; ObjectID = "me2-Cv-0Gt"; */
+"me2-Cv-0Gt.headerTitle" = "Location";
+
+/* Class = "IBUINavigationItem"; title = "Entry"; ObjectID = "muB-9x-Npv"; */
+"muB-9x-Npv.title" = "Entry";
+
+/* Class = "IBUITextField"; placeholder = "vessel brand"; ObjectID = "oib-CJ-9HR"; */
+"oib-CJ-9HR.placeholder" = "vessel brand";
+
+/* Class = "IBUILabel"; text = "get position on new snap"; ObjectID = "pPb-K5-htl"; */
+"pPb-K5-htl.text" = "get position on new snap";
+
+/* Class = "IBUILabel"; text = "Title"; ObjectID = "qHf-i6-YRa"; */
+"qHf-i6-YRa.text" = "Title";
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "qjz-Mx-AOh"; */
+"qjz-Mx-AOh.text" = "Label";
+
+/* Class = "IBUILabel"; text = "logged enginemiles"; ObjectID = "rzc-am-Dtl"; */
+"rzc-am-Dtl.text" = "logged enginemiles";
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "s0o-ds-17i"; */
+"s0o-ds-17i.text" = "Label";
+
+/* Class = "IBUILabel"; text = "Weather"; ObjectID = "sQT-Pg-gHf"; */
+"sQT-Pg-gHf.text" = "Weather";
+
+/* Class = "IBUILabel"; text = "Snap Distance"; ObjectID = "sap-kf-4c2"; */
+"sap-kf-4c2.text" = "Snap Distance";
+
+/* Class = "IBUITableViewSection"; headerTitle = "Metrics"; ObjectID = "tBd-pK-n0g"; */
+"tBd-pK-n0g.headerTitle" = "Metrics";
+
+/* Class = "IBUILabel"; text = "First harbour"; ObjectID = "tz8-1q-PV5"; */
+"tz8-1q-PV5.text" = "First harbour";
+
+/* Class = "IBUITableViewSection"; headerTitle = "Time"; ObjectID = "uhe-K9-aGa"; */
+"uhe-K9-aGa.headerTitle" = "Time";
+
+/* Class = "IBUILabel"; text = "Info"; ObjectID = "usX-or-Cf9"; */
+"usX-or-Cf9.text" = "Info";
+
+/* Class = "IBUILabel"; text = "maneuver"; ObjectID = "vhd-De-irf"; */
+"vhd-De-irf.text" = "maneuver";
+
+/* Class = "IBUILabel"; text = "Position name"; ObjectID = "vnI-KC-CFZ"; */
+"vnI-KC-CFZ.text" = "Position name";
+
+/* Class = "IBUILabel"; text = "Log"; ObjectID = "x43-e6-TJB"; */
+"x43-e6-TJB.text" = "Log";
+
+/* Class = "IBUILabel"; text = "Engine"; ObjectID = "xCM-gV-hKU"; */
+"xCM-gV-hKU.text" = "Engine";
+
+/* Class = "IBUILabel"; text = "Detail"; ObjectID = "xLG-5Z-PLD"; */
+"xLG-5Z-PLD.text" = "Detail";
+
+/* Class = "IBUIButton"; normalTitle = "Done"; ObjectID = "xZT-Ug-8CR"; */
+"xZT-Ug-8CR.normalTitle" = "Done";
+
+/* Class = "IBUITextField"; placeholder = "name of cruise"; ObjectID = "yYC-tj-u4N"; */
+"yYC-tj-u4N.placeholder" = "name of cruise";
+

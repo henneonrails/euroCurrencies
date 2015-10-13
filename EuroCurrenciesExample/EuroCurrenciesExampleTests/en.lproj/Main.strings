@@ -1,0 +1,51 @@
+
+/* Class = "IBUITableViewController"; title = "Master"; ObjectID = "7bK-jq-Zjz"; */
+"7bK-jq-Zjz.title" = "Master";
+
+/* Class = "IBUITableViewSection"; headerTitle = "Download"; ObjectID = "7nc-cQ-nUY"; */
+"7nc-cQ-nUY.headerTitle" = "Download";
+
+/* Class = "IBUITableViewSection"; headerTitle = "Data"; ObjectID = "8cQ-ii-Dz7"; */
+"8cQ-ii-Dz7.headerTitle" = "Data";
+
+/* Class = "IBUILabel"; text = "GET Request"; ObjectID = "Arm-wq-HPj"; */
+"Arm-wq-HPj.text" = "GET Request";
+
+/* Class = "IBUILabel"; text = "Accept"; ObjectID = "CVi-D2-cds"; */
+"CVi-D2-cds.text" = "Accept";
+
+/* Class = "IBUILabel"; text = "Download Request"; ObjectID = "Gr3-i1-tdE"; */
+"Gr3-i1-tdE.text" = "Download Request";
+
+/* Class = "IBUITableViewSection"; headerTitle = "Upload"; ObjectID = "HR4-nh-1dM"; */
+"HR4-nh-1dM.headerTitle" = "Upload";
+
+/* Class = "IBUILabel"; text = "Upload File"; ObjectID = "Ii5-Vh-zHX"; */
+"Ii5-Vh-zHX.text" = "Upload File";
+
+/* Class = "IBUINavigationController"; title = "Master"; ObjectID = "RMx-3f-FxP"; */
+"RMx-3f-FxP.title" = "Master";
+
+/* Class = "IBUILabel"; text = "\"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\""; ObjectID = "Umi-gS-7r0"; */
+"Umi-gS-7r0.text" = "\"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\"";
+
+/* Class = "IBUILabel"; text = "Download Resume Data"; ObjectID = "fmT-qD-bf2"; */
+"fmT-qD-bf2.text" = "Download Resume Data";
+
+/* Class = "IBUILabel"; text = "PUT Request"; ObjectID = "gGF-bI-vhg"; */
+"gGF-bI-vhg.text" = "PUT Request";
+
+/* Class = "IBUILabel"; text = "Upload Stream"; ObjectID = "gzG-92-x5R"; */
+"gzG-92-x5R.text" = "Upload Stream";
+
+/* Class = "IBUILabel"; text = "DELETE Request"; ObjectID = "jsW-Zp-fZf"; */
+"jsW-Zp-fZf.text" = "DELETE Request";
+
+/* Class = "IBUILabel"; text = "POST Request"; ObjectID = "kv2-3k-J9w"; */
+"kv2-3k-J9w.text" = "POST Request";
+
+/* Class = "IBUILabel"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda."; ObjectID = "m1f-qP-FlJ"; */
+"m1f-qP-FlJ.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.";
+
+/* Class = "IBUILabel"; text = "Upload Data"; ObjectID = "tFv-wn-QTG"; */
+"tFv-wn-QTG.text" = "Upload Data";
