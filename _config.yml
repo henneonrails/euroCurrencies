@@ -1,0 +1,8 @@
+title: Eurocurrencies
+description: Convert foreign currencies into Euro values with this Objective-C repro.
+google_analytics: 
+show_downloads: true
+theme: jekyll-theme-midnight
+
+gems:
+  - jekyll-mentions
